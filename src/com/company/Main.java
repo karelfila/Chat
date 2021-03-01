@@ -30,6 +30,7 @@ public class Main {
         System.out.println("Zadej jméno:");
         name = sc.nextLine();
         System.out.println("----------------");
+
         if (Count == 0)
             System.out.println(name + " nemáš tu žádné zprávy");
         if (Count == 1) {
